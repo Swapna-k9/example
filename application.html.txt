@@ -1,0 +1,62 @@
+
+<div align="right" style="width:90%;">
+  <marquee behavior="scroll" direction="left" onmousedown="this.stop();" onmouseup="this.start()">
+      <h4> Welcome to Fresh Food Delivery System.</h4>
+  </marquee>
+</div>
+<div class="Column">
+  <ul class="main_nav wow fadeInCenter">
+    <li><a href="#scrol_delivery">Food Delivery</a></li>
+    <li><a href="#scrol_food">Our Foods</a></li>
+    <li><a href="#scrol_work">How it Work</a></li>
+    <li><a href="#scrol_cities">Our Cities</a></li>
+    <li><a href="/userType" >Log In</a></li>
+  </ul> 
+</div>
+
+<div class="container">
+  
+    <ul class="main_nav wow fadeInRight">
+    <li class="nav-item" ><a routerLink="/addFooditem" class="nav-link">Add Fooditem</a></li>
+    <li class="nav-item"><a  routerLink="/deleteFooditem" class="nav-link">Delete Fooditem</a></li>
+    <li class="nav-item" ><a routerLink="/updateFooditem" class="nav-link">Update Fooditem</a></li>
+    <li class="nav-item" ><a routerLink="/searchFooditem" class="nav-link">Search Fooditem</a></li>
+    <li class="nav-item" ><a routerLink="/FooditemsList" class="nav-link">View all Fooditems</a></li>
+  </ul>
+</div>
+<section class="section-steps" id = "scrol_work">
+        
+  <div class="row">
+      <h2 class="wow zoomIn">How it works &ndash; Simple 1, 2, 3</h2>
+  </div>
+
+  <div class="row">
+      <div class="col span_1_of_2 step-box">
+      </div>
+      <div class="col span_1_of_2 step-box wow fadeInCenter">
+          
+          <div class="work-step clear_Space">
+              <p>1.Choose the subscription plan that best fits your needs and sign up today.</p>
+          </div>
+
+          <div class="work-step clear_Space">
+              <p>2.Order your delicious meal using our website. Or you can even call us!</p>
+          </div>
+
+          <div class="work-step clear_Space">                           
+               <p>3.Enjoy your meal after less than 20 minutes. See you the next time!</p>
+          </div>
+      </div>
+
+  </div>
+
+</section>
+
+
+<br/>
+<br/>
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
+
+
